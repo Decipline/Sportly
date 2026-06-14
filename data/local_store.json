@@ -1,0 +1,176 @@
+{
+  "campus_documents": [],
+  "campus_chunks": [],
+  "admin_notices": [],
+  "chat_messages": [
+    {
+      "id": "6a3640b5-a1ce-472c-a98d-9c719a5fa94b",
+      "created_at": "2026-06-12T07:43:48.762514+00:00",
+      "user_query": "fifa wc",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "The FIFA World Cup is an international association football competition among the senior men's national teams of the members of the F\u00e9d\u00e9ration Internationale de Football Association (FIFA), the sport's global governing body. The tournament has been held every four years since the inaugural tournament in 1930, with the exception of 1942 and 1946 due to World War II. The reigning champions are Argentina, who won their third title at the 2022 World Cup by defeating France.The contest starts with the qualification phase, which takes place over the preceding three years to determine which teams qualify for the tournament phase. In the tournament phase, 48 teams (as of the 2026 World Cup) compete for the title at venues within the host nation(s) over the course of about a month. The host nation(s) automatically qualify for the group stage of the tournament.As of the 2022 World Cup, 22 final tournaments have been held since the event's inception in 1930, and a total of 80 national teams have competed. The trophy has been won by eight national teams. With five wins, Brazil is the only team to have played in every tournament. The other World Cup winners are Germany and Italy, with four titles each; Argentina, with three titles; France and inaugural winner Uruguay, each with two titles; and England and Spain, with one title each.The World Cup is globally regarded as the most prestigious association football competition, as well as the most widely viewed and followed sporting event in the world. The viewership of the 2018 World Cup was estimated to be 3.57 billion, close to half of the global population, while the engagement with the 2022 World Cup was estimated to be 5 billion, with about 1.5 billion people watching the final match.Eighteen countries have hosted the World Cup, most recently Qatar, who hosted the 2022 event. The 2026 tournament will be jointly hosted by Canada, Mexico, and the United States, which will give Mexico the distinction of being the first country to host games in three World Cups. (Source: Fifa wc) 2026 FIFA World Cup emblem The 2026 FIFA World Cup is the 23rd edition of the quadrennial international men's association football tournament organized by FIFA, contested by... (Source: 2026 FIFA World Cup) 3 hours ago \u00b7 Check out the best moments from the first day of matches in the 2026 FIFA World Cup\u2122. (Source: Best Moments of 2026 FIFA World Cup\u2122 Match Day One - FOX Sports)",
+        "explanation": "This information was retrieved from live web search results for 'fifa wc'.",
+        "action_steps": [
+          "Check the listed sources for full match highlights or statistics."
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Fifa_wc",
+          "https://grokipedia.com/page/2026_FIFA_World_Cup",
+          "https://www.foxsports.com/watch/fmc-z84dexb1bw2nnyu2"
+        ],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "110c99dd-f487-4549-9c31-f82396826e56",
+      "created_at": "2026-06-12T07:59:49.929499+00:00",
+      "user_query": "aSAFH,VMHJGNTERWGFQD",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, a specialized sports prediction and analysis assistant. I can only assist you with sports-related queries.",
+        "explanation": "",
+        "action_steps": [],
+        "sources": []
+      }
+    },
+    {
+      "id": "8ad1d2d4-cbb9-4c66-956c-d72908439baa",
+      "created_at": "2026-06-12T08:00:07.551082+00:00",
+      "user_query": "who won 2026 ipl?",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "2026 Indian Premier League ... The 2026 Indian Premier League, also known as IPL 19 and branded as TATA IPL 2026, was the 19th edition of the Indian Premier League, a professional Twenty20 cricket league. The tournament featured 10 teams competing in 74 matches from 28 March to 31 May across 13 venues. (Source: 2026 Indian Premier League - Wikipedia) Full list of Indian Premier League winners, runners-up Chennai Super Kings and Mumbai Indians are the most successful teams in the history of the IPL, having won the title five times each. (Source: Who won IPL 2026? Full list of Indian Premier League winners, runners ...) Who won what in IPL 2026: Vaibhav Sooryavanshi steals the show even as RCB pocket Rs 20 cr While the champions take home the lion's share of the massive \u20b946.5 crore total prize pool, the ... (Source: Who Won What in IPL 2026: Full List of Winners and Prize Money - Sports ...)",
+        "explanation": "This information was retrieved from live web search results for 'who won 2026 ipl?'.",
+        "action_steps": [
+          "Check the listed sources for full match highlights or statistics."
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Indian_Premier_League",
+          "https://www.sportingnews.com/in/cricket/news/who-won-ipl-2026-list-indian-premier-league-winners-runners/c72cd80b310493e99b2306e0",
+          "https://www.financialexpress.com/sports/ipl-2026-final-full-list-winners-prize-money-vaibhav-sooryavanshi-bank-breaking-show/4255808/"
+        ],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "20a97717-0323-404b-96a7-6f8c5f09990a",
+      "created_at": "2026-06-12T08:01:04.720243+00:00",
+      "user_query": "who is messi?",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, a specialized sports prediction and analysis assistant. I can only assist you with sports-related queries.",
+        "explanation": "",
+        "action_steps": [],
+        "sources": []
+      }
+    },
+    {
+      "id": "50610008-f62f-45c4-8e2f-8aafe27bcf45",
+      "created_at": "2026-06-12T08:01:23.352134+00:00",
+      "user_query": "who won 8 balllondor",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "Winners \u00b7 Andr\u00e9s Iniesta \u00b7 Barcelona ... (Source: FIFA Ballon d'Or - Wikipedia) 2025 Ballon d'Or winner, Ousmane Demb\u00e9l\u00e9 in 2018 ; 2025 Ballon d'Or winner, Ousmane Demb\u00e9l\u00e9 in 2018 \u00b7 22 September 2025 \u00b7 Th\u00e9\u00e2tre du Ch\u00e2telet, Paris, France. (Source: 2025 Ballon d'Or - Wikipedia) May 6, 2026 \u00b7 If Messi won his eighth and certainly final Ballon d'Or in 2023 it is no longer an honor reserved exclusively for two great names in history ...Next Balloon D'orOusmane Dembele \u2764\ufe0f #BalllondOrMore results from www.facebook.com (Source: Who will win the 2026 Ballon d'Or? - Facebook)",
+        "explanation": "This information was retrieved from live web search results for 'who won 8 balllondor'.",
+        "action_steps": [
+          "Check the listed sources for full match highlights or statistics."
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/FIFA_Ballon_d'Or",
+          "https://en.wikipedia.org/wiki/2025_Ballon_d'Or",
+          "https://www.facebook.com/groups/494594528319165/posts/1647966116315328/"
+        ],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "e162d5ab-5c0f-4b6a-8e06-cbdef089c57b",
+      "created_at": "2026-06-12T08:02:01.200712+00:00",
+      "user_query": "who won most balondoor?",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "Lionel Messi has won a record eight Ballons d'Or across three different decades, and holds the record for most consecutive wins, with four between 2009 and 2012. Cristiano Ronaldo has been nominated for the Ballon d'Or a record eighteen times and is a five-time winner. Stanley Matthews was the inaugural recipient and remains the oldest winner of the award, aged 41 years, 321 days. Luis Su\u00e1rez ... (Source: Ballon d'Or - Wikipedia) 18 Dynamo Moscow (Wins: 1) Arguably the most legendary goalkeeper of all time, Lev Yashin won the Ballon d'Or with Dynamo Moscow in 1963. (Source: 22 Football Clubs With Most Ballon d'Or Winners - GiveMeSport) The Ballon d'Or is the most prestigious individual award in football, honoring the best player in the world each year. Over the decades, only a handful of legends have managed to win it multiple times. Below, we highlight the players with the most Ballon d'Or trophies in history\u2014icons who defined generations and left their mark... (Source: Most Ballon d'Or Trophies of All Time: Football's Greatest Winners)",
+        "explanation": "This information was retrieved from live web search results for 'who won most balondoor?'.",
+        "action_steps": [
+          "Check the listed sources for full match highlights or statistics."
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Ballon_d'Or",
+          "https://www.givemesport.com/clubs-with-most-ballon-dor-award-wins/",
+          "https://thesportscast.net/2025/09/23/most-ballon-dor-trophies-of-all-time-footballs-greatest-winners/"
+        ],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "a8a501a9-b848-4cdd-a9d6-370bed80c940",
+      "created_at": "2026-06-13T07:04:18.059801+00:00",
+      "user_query": "Who is Virat Kohli?",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, a specialized sports prediction and analysis assistant. I can only assist you with sports-related queries.",
+        "explanation": "",
+        "action_steps": [],
+        "sources": []
+      }
+    },
+    {
+      "id": "b06c5aa9-9aaa-4cda-af31-543ca30906b9",
+      "created_at": "2026-06-13T07:22:57.450351+00:00",
+      "user_query": "Who is Virat Kohli?",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, a specialized sports prediction and analysis assistant. I can only assist you with sports-related queries.",
+        "explanation": "",
+        "action_steps": [],
+        "sources": []
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "0e9fc2d4-c9d5-4355-a91c-e87f060afda9",
+      "created_at": "2026-06-13T08:15:20.635101+00:00",
+      "username": "hemant",
+      "email": "hemantkhadka8053@gmail.com",
+      "password_hash": "6553988a4252ac4857268755dcc2013738d8fb486c70678d6e71cb362973e6ed"
+    },
+    {
+      "id": "f38f996a-05e9-47ef-991b-0e2d41f009d3",
+      "created_at": "2026-06-14T01:40:33.377369+00:00",
+      "username": "hemantkhadka8053@gmail.com",
+      "email": "hemantkhadka8053@gmail.com",
+      "password_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    },
+    {
+      "id": "7deba016-5c13-4a57-8709-9ce40e97d9ca",
+      "created_at": "2026-06-14T01:43:32.494355+00:00",
+      "username": "hemu",
+      "email": "hemantkhadka8053@gmail.com",
+      "password_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    },
+    {
+      "id": "ace68380-b92c-43e6-9103-1dcb589b984f",
+      "created_at": "2026-06-14T01:53:01.896720+00:00",
+      "username": "qqq",
+      "email": "hemantkhadka8053@gmail.com",
+      "password_hash": "7f378cba421066a430b7a9043bdca9785b93e9ab7732f214bd22b7fc818a17ad"
+    },
+    {
+      "id": "05b3c506-4de1-4549-a395-afc81319fae7",
+      "created_at": "2026-06-14T01:57:04.833480+00:00",
+      "username": "www",
+      "email": "hemantkhadka8053@gmail.com",
+      "password_hash": "$2b$12$XIefc53RMLdl5Es9/XX4weX9XN0iHKfZlEeiAPkyGI92KVDD/m0g."
+    }
+  ]
+}
