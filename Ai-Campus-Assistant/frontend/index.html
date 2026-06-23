@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sportly - Sports AI Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="holoScene" aria-hidden="true"></canvas>
+    <main class="app-shell">
+      <section class="workspace" aria-label="AI assistant workspace">
+        <aside class="sidebar">
+          <div>
+            <p class="eyebrow">Sportly</p>
+            <h1>Sports AI Assistant</h1>
+          </div>
+
+          <div class="sidebar-actions">
+            <button id="newChatBtn" class="ghost-button" type="button">New Chat</button>
+            <button id="clearHistoryBtn" class="ghost-button" type="button">Clear History</button>
+          </div>
+
+          <div class="sidebar-info">
+            <p class="eyebrow">Status</p>
+            <span id="dbStatus" class="status-pill">Checking...</span>
+          </div>
+        </aside>
+
+        <section class="chat-panel">
+          <div id="chatContainer" class="chat-container">
+            <div id="chatMessages" class="chat-messages">
+              <div class="message assistant">
+                <div class="message-content">
+                  <p>Hello! I'm Sportly, your AI-powered sports assistant. I can help you with sports predictions, match analysis, player stats, scores, and information about all sports including football, basketball, cricket, tennis, and more. Ask me about upcoming games, team performance, or any sports-related questions!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form id="chatForm" class="chat-form">
+            <textarea
+              id="userInput"
+              name="userInput"
+              rows="2"
+              placeholder="Type your message here..."
+              required
+            ></textarea>
+            <button class="send-button" type="submit">
+              <span>Send</span>
+            </button>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+    <script type="module" src="scene.js"></script>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+{
+  "campus_documents": [],
+  "campus_chunks": [],
+  "admin_notices": [],
+  "chat_messages": [
+    {
+      "id": "7385049f-f900-42f2-85cb-1dbea711e321",
+      "created_at": "2026-06-09T01:59:31.071881+00:00",
+      "user_query": "How to study DSA",
+      "intent": "study_plan",
+      "agent": "Study Planner Agent",
+      "answer": {
+        "direct_answer": "Start DSA by learning one concept at a time, then immediately solving problems on that concept.",
+        "explanation": "DSA becomes easier when you follow a fixed order: basics, arrays, strings, recursion, linked lists, stacks, queues, trees, graphs, dynamic programming, and revision.",
+        "action_steps": [
+          "Week 1: Learn arrays, strings, time complexity, and basic problem-solving patterns.",
+          "Week 2: Study recursion, sorting, searching, two pointers, and sliding window.",
+          "Week 3: Practice linked lists, stacks, queues, hash maps, and sets.",
+          "Week 4: Learn trees, binary search trees, heaps, and graph basics.",
+          "Week 5: Start dynamic programming with small problems like Fibonacci, climbing stairs, and knapsack basics.",
+          "Daily routine: 30 minutes concept study, 90 minutes problem solving, 20 minutes revision.",
+          "Practice strategy: Solve easy problems first, then medium problems; write down mistakes after every session.",
+          "Best tip: Do not only watch tutorials. Code every topic yourself and revise old problems weekly."
+        ]
+      }
+    },
+    {
+      "id": "c12eecad-8a27-4446-9969-c2b1fbe47a82",
+      "created_at": "2026-06-09T01:59:31.110264+00:00",
+      "user_query": "When is the internal exam?",
+      "intent": "admin",
+      "agent": "Admin Help Agent",
+      "answer": {
+        "direct_answer": "BSc CSIT semester 4 internal exam starts on July 10.",
+        "explanation": "This answer is based on the provided administrative context.",
+        "action_steps": [
+          "Confirm details with the college notice board, department office, or official portal.",
+          "Contact your department if dates, fees, or rules are unclear."
+        ]
+      }
+    },
+    {
+      "id": "30e3d81f-05e7-4605-a4c1-d299b95e4e20",
+      "created_at": "2026-06-09T02:00:06.491179+00:00",
+      "user_query": "What does the document say about admit cards?",
+      "intent": "admin",
+      "agent": "Admin Help Agent",
+      "answer": {
+        "direct_answer": "Please clarify the department, semester, and topic.",
+        "explanation": "Administrative answers need official context such as a notice, exam schedule, fee circular, or rule document.",
+        "action_steps": [
+          "Mention your department or program.",
+          "Mention your semester or batch if relevant.",
+          "Add the official notice or rule in the Notices or Documents tab for an exact answer."
+        ]
+      }
+    },
+    {
+      "id": "3f1b3f0a-6b58-4cdb-abf2-f2b389cdb8c9",
+      "created_at": "2026-06-09T02:02:28.183706+00:00",
+      "user_query": "What does the document say about admit cards?",
+      "intent": "admin",
+      "agent": "Admin Help Agent",
+      "answer": {
+        "direct_answer": "Please clarify the department, semester, and topic.",
+        "explanation": "Administrative answers need official context such as a notice, exam schedule, fee circular, or rule document.",
+        "action_steps": [
+          "Mention your department or program.",
+          "Mention your semester or batch if relevant.",
+          "Add the official notice or rule in the Notices or Documents tab for an exact answer."
+        ]
+      }
+    },
+    {
+      "id": "fdfbe69d-a0f7-4f6a-9c69-b69c73d48e9f",
+      "created_at": "2026-06-09T02:02:35.345776+00:00",
+      "user_query": "When is the internal exam for BSc CSIT semester 4?",
+      "intent": "admin",
+      "agent": "Admin Help Agent",
+      "answer": {
+        "direct_answer": "Please clarify the department, semester, and topic.",
+        "explanation": "Administrative answers need official context such as a notice, exam schedule, fee circular, or rule document.",
+        "action_steps": [
+          "Mention your department or program.",
+          "Mention your semester or batch if relevant.",
+          "Add the official notice or rule in the Notices or Documents tab for an exact answer."
+        ]
+      }
+    },
+    {
+      "id": "f81996fc-aa2b-49a2-a014-02fabe1a2401",
+      "created_at": "2026-06-09T02:02:44.137018+00:00",
+      "user_query": "How to study DSA",
+      "intent": "study_plan",
+      "agent": "Study Planner Agent",
+      "answer": {
+        "direct_answer": "Start DSA by learning one concept at a time, then immediately solving problems on that concept.",
+        "explanation": "DSA becomes easier when you follow a fixed order: basics, arrays, strings, recursion, linked lists, stacks, queues, trees, graphs, dynamic programming, and revision.",
+        "action_steps": [
+          "Week 1: Learn arrays, strings, time complexity, and basic problem-solving patterns.",
+          "Week 2: Study recursion, sorting, searching, two pointers, and sliding window.",
+          "Week 3: Practice linked lists, stacks, queues, hash maps, and sets.",
+          "Week 4: Learn trees, binary search trees, heaps, and graph basics.",
+          "Week 5: Start dynamic programming with small problems like Fibonacci, climbing stairs, and knapsack basics.",
+          "Daily routine: 30 minutes concept study, 90 minutes problem solving, 20 minutes revision.",
+          "Practice strategy: Solve easy problems first, then medium problems; write down mistakes after every session.",
+          "Best tip: Do not only watch tutorials. Code every topic yourself and revise old problems weekly."
+        ]
+      }
+    },
+    {
+      "id": "eb1e2bdf-5900-4469-9438-e02743366701",
+      "created_at": "2026-06-09T04:59:13.164349+00:00",
+      "user_query": "What does the document say about admit cards?",
+      "intent": "admin",
+      "agent": "Admin Help Agent",
+      "answer": {
+        "direct_answer": "Please clarify the department, semester, and topic.",
+        "explanation": "Administrative answers need official context such as a notice, exam schedule, fee circular, or rule document.",
+        "action_steps": [
+          "Mention your department or program.",
+          "Mention your semester or batch if relevant.",
+          "Add the official notice or rule in the Notices or Documents tab for an exact answer."
+        ]
+      }
+    },
+    {
+      "id": "243afb27-2af5-4596-a79f-83ffa1bec01d",
+      "created_at": "2026-06-09T04:59:27.695725+00:00",
+      "user_query": "hello",
+      "intent": "knowledge",
+      "agent": "Knowledge Agent",
+      "answer": {
+        "direct_answer": "Information not available in documents.",
+        "explanation": "The Knowledge Agent checks stored campus documents and notices before answering.",
+        "action_steps": [
+          "Add the relevant syllabus, notice, rule, or document in the Documents or Notices tab.",
+          "Ask the question again after the data is saved."
+        ]
+      }
+    },
+    {
+      "id": "b3f77b73-9984-4bcf-8a02-1ff66bd03200",
+      "created_at": "2026-06-09T05:16:20.679025+00:00",
+      "user_query": "hello whats  going",
+      "intent": "knowledge",
+      "agent": "Knowledge Agent",
+      "answer": {
+        "direct_answer": "Information not available in documents.",
+        "explanation": "The Knowledge Agent checks stored campus documents and notices before answering.",
+        "action_steps": [
+          "Add the relevant syllabus, notice, rule, or document in the Documents or Notices tab.",
+          "Ask the question again after the data is saved."
+        ]
+      }
+    },
+    {
+      "id": "0e724e09-9a2f-4392-bbd5-5ea8b2cef6f9",
+      "created_at": "2026-06-09T05:16:45.453612+00:00",
+      "user_query": "without you how do you do",
+      "intent": "knowledge",
+      "agent": "Knowledge Agent",
+      "answer": {
+        "direct_answer": "Information not available in documents.",
+        "explanation": "The Knowledge Agent checks stored campus documents and notices before answering.",
+        "action_steps": [
+          "Add the relevant syllabus, notice, rule, or document in the Documents or Notices tab.",
+          "Ask the question again after the data is saved."
+        ]
+      }
+    }
+  ]
+}

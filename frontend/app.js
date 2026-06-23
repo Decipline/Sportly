@@ -15,10 +15,7 @@ let isGuest = !authToken;
 
 // Show login overlay if not authenticated
 function checkAuth() {
-  if (!authToken && guestTokens <= 0) {
-    loginOverlay.classList.remove('hidden');
-    return false;
-  }
+  // Don't show login overlay on page load - let user access chatbot immediately
   return true;
 }
 
