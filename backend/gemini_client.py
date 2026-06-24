@@ -214,9 +214,11 @@ def search_web(query: str, num_results: int = 5) -> List[Dict[str, str]]:
                 "url": result.get("href", ""),
                 "snippet": result.get("body", "")
             })
+        print(f"Web search for '{query}' returned {len(results)} results")
         return results
-    except ImportError:
+    except ImportError as e:
         # If ddgs is not installed, return empty list
+        print(f"ddgs library not installed: {e}")
         return []
     except Exception as e:
         # Log error and return empty list

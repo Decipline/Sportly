@@ -32,7 +32,11 @@ load_env()
 
 APP_PORT = int(os.environ.get("APP_PORT", "8000"))
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-1.5-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-1.5-pro")
+
+# Disable Gemini API by default to use local search
+os.environ["GEMINI_API_KEY"] = ""
+GEMINI_API_KEY = ""
 
 # Google OAuth Configuration
 GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID", "")

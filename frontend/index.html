@@ -7,19 +7,6 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-  <!-- Login Overlay -->
-  <div id="loginOverlay" class="overlay hidden">
-    <div class="overlay-content glass">
-      <h2>Welcome to Sportly</h2>
-      <p>Login to access additional features</p>
-      <form id="loginForm">
-        <input type="text" id="loginUsername" placeholder="Username" />
-        <input type="password" id="loginPassword" placeholder="Password" />
-        <button type="submit" class="submit-button">Login</button>
-      </form>
-      <p class="toggle-link">Or <a href="#" id="continueAsGuest">Continue as Guest</a></p>
-    </div>
-  </div>
     <canvas id="holoScene" aria-hidden="true"></canvas>
     <main class="app-shell">
       <section class="workspace" aria-label="AI assistant workspace">
@@ -27,16 +14,9 @@
           <div>
             <h1>Sportly</h1>
           </div>
-          <div class="sidebar-profile hidden">
-            <div class="profile-info">
-              <span class="profile-name"></span>
-            </div>
-            <button id="logoutBtn" class="ghost-button">Logout</button>
-          </div>
           <div class="sidebar-actions">
             <button id="newChatBtn" class="ghost-button" type="button">New Chat</button>
             <button id="clearHistoryBtn" class="ghost-button" type="button">Clear History</button>
-            <button id="loginBtn" class="ghost-button" type="button">Login</button>
           </div>
         </aside>
         <section class="chat-panel">
@@ -73,7 +53,6 @@
     </div>
 
     <script src="app.js"></script>
-    <script src="chatbot.js" type="module"></script>
     <script type="module" src="scene.js"></script>
   </body>
 </html>

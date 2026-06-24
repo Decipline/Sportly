@@ -228,51 +228,28 @@ class SportlyBotHandler(SimpleHTTPRequestHandler):
         # Local validation check if Gemini is offline
         from gemini_client import gemini_enabled
         if not gemini_enabled():
-            if not is_sports_query_local(query):
-                result = {
-                    "answer": {
-                        "direct_answer": "I am Sportly, a specialized sports prediction and analysis assistant. I can only assist you with sports-related queries.",
-                        "explanation": "",
-                        "action_steps": [],
-                        "sources": [],
-                    },
-                    "generated_by": "local_filter",
-                    "intent": "sports",
-                    "agent": "Sportly",
-                    "web_results": [],
-                }
-                
-                # Save to local storage
-                LOCAL.insert_chat(
-                    {
-                        "user_query": query,
-                        "intent": "sports",
-                        "agent": "Sportly",
-                        "answer": result["answer"],
-                    }
-                )
-                self.respond_json(result)
-                return
-            else:
-                web_results = search_web(query)
-                local_ans = generate_local_sports_answer(query, web_results)
-                result = {
-                    "answer": local_ans,
-                    "generated_by": "local_search",
+            # Always do web search when Gemini is disabled
+            print(f"Performing web search for query: {query}")
+            web_results = search_web(query)
+            print(f"Web results: {web_results}")
+            local_ans = generate_local_sports_answer(query, web_results)
+            result = {
+                "answer": local_ans,
+                "generated_by": "local_search",
+                "intent": intent,
+                "agent": "Sportly",
+                "web_results": web_results,
+            }
+            LOCAL.insert_chat(
+                {
+                    "user_query": query,
                     "intent": intent,
                     "agent": "Sportly",
-                    "web_results": web_results,
+                    "answer": result["answer"],
                 }
-                LOCAL.insert_chat(
-                    {
-                        "user_query": query,
-                        "intent": intent,
-                        "agent": "Sportly",
-                        "answer": result["answer"],
-                    }
-                )
-                self.respond_json(result)
-                return
+            )
+            self.respond_json(result)
+            return
 
         # Always perform web search for real-time sports data
         web_results = search_web(query)
@@ -289,11 +266,25 @@ class SportlyBotHandler(SimpleHTTPRequestHandler):
                 web_results=web_results,
             )
         except (GeminiError, json.JSONDecodeError) as exc:
+            # Fall back to local search if Gemini API fails
+            print(f"Gemini API error, falling back to local search: {exc}")
+            local_ans = generate_local_sports_answer(query, web_results)
             result = {
-                "error": str(exc),
-                "generated_by": "error",
+                "answer": local_ans,
+                "generated_by": "local_search_fallback",
+                "intent": intent,
+                "agent": "Sportly",
+                "web_results": web_results,
             }
-            self.respond_json(result, status=500)
+            LOCAL.insert_chat(
+                {
+                    "user_query": query,
+                    "intent": intent,
+                    "agent": "Sportly",
+                    "answer": result["answer"],
+                }
+            )
+            self.respond_json(result)
             return
 
         if ai_answer:
