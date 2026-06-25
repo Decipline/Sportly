@@ -151,7 +151,234 @@ def is_sports_query_local(query: str) -> bool:
         "goalkeeper", "keeper", "batsman", "batsmen", "bowler", "bowlers", "midfielder", "defender", 
         "quarterback", "batter", "pitcher", "tackle", "dribble", "pass", "shoot", "dunk", "serve", 
         "volley", "offside", "penalty", "freekick", "corner", "innings", "over", "overs", "boundary", 
-        "six", "four", "century", "outfield", "infield", "strikeout"
+        "six", "four", "century", "outfield", "infield", "strikeout",
+
+        # Famous Football Players
+        "messi", "ronaldo", "neymar", "mbappe", "haaland", "salah", "debruyne", "lewandowski", "modric", 
+        "kane", "vinicius", "bellingham", "pedri", "gavi", "jude", "rodri", "bernardo", "bruno", "casemiro",
+        "vini", "kylian", "erling", "mohamed", "kevin", "robert", "luka", "harry", "jude", "pedri", "gavi",
+        "zidane", "beckham", "maradona", "pele", "cruyff", "ronaldinho", "kaka", "figo", "henry", "bergkamp",
+        "zlatan", "suarez", "aguero", "tevez", "rooney", "gerrard", "lampard", "terry", "rio", "ashley",
+        "cole", "scholes", "carrick", "giggs", "solskjaer", "cantona", "best", "charlton", "law", "bobby",
+        "moore", "banks", "lines", "charlton", "hurst", "peters", "stiles", "cohen", "wilson", "ball",
+        "ramsey", "greaves", "hurst", "charlton", "moore", "banks", "stiles", "cohen", "wilson", "ball",
+
+        # Famous Basketball Players
+        "jordan", "lebron", "kobe", "bryant", "curry", "durant", "james", "shaq", "o'neal", "duncan",
+        "iverson", "bird", "magic", "johnson", "kareem", "abdul-jabbar", "wilt", "chamberlain", "russell",
+        "bill", "hakeem", "olajuwon", "drexler", "barkley", "malone", "stockton", "ewing", "robinson",
+        "david", "miller", "reggie", "allen", "ray", "pierce", "paul", "garnett", "kg", "nowitzki",
+        "dirk", "nash", "steve", "kidd", "jason", "payton", "gary", "mutombo", "dikembe", "yao", "ming",
+        "shaquille", "kobe", "michael", "stephen", "kevin", "anthony", "carmelo", "chris", "paul", "dwyane",
+        "wade", "giannis", "antetokounmpo", "jokic", "nikola", "embiid", "joel", "tatum", "jason", "jalen",
+        "brown", "jaylen", "mitchell", "donovan", "trae", "young", "luka", "doncic", "zion", "williamson",
+        "ja", "morant", "lamelo", "ball", "la", "melo", "anthony", "davis", "anthony", "kawhi", "leonard",
+        "kyrie", "irving", "harden", "james", "westbrook", "russell", "love", "kevin", "bosh", "chris",
+        "wade", "dwyane", "bosh", "allen", "ray", "kg", "pierce", "rondo", "rajon", "derozan", "demar",
+        "lowry", "kyle", "ibaka", "serge", "gasol", "pau", "marc", "noah", "joakim", "rose", "derrick",
+        "wall", "john", "beal", "bradley", "lillard", "damian", "aldridge", "lamarcus", "love", "kevin",
+
+        # Famous Cricket Players
+        "tendulkar", "sachin", "kohli", "virat", "dhoni", "mahendra", "dhoni", "ms", "smith", "steve",
+        "warner", "david", "kane", "williamson", "root", "joe", "cook", "alastair", "anderson", "james",
+        "broad", "stuart", "swann", "graeme", "ponting", "ricky", "clarke", "michael", "waugh", "steve",
+        "gilchrist", "adam", "hayden", "matthew", "martyn", "damien", "lee", "brett", "mcgrath", "glenn",
+        "warne", "shane", "muralitharan", "muthiah", "lara", "brian", "sangakkara", "kumar", "jayawardene",
+        "sehwag", "virender", "gambhir", "gautam", "yuvraj", "singh", "raina", "suresh", "dhawan", "shikhar",
+        "rohit", "sharma", "rahul", "kl", "pandya", "hardik", "jadeja", "ravindra", "ashwin", "ravichandran",
+        "bumrah", "jasprit", "shami", "mohammed", "ishant", "sharma", "umesh", "yadav", "kuldeep", "yadav",
+        "chahal", "yuzvendra", "bhumrah", "jaspit", "kohali", "virat", "tendulkar", "sachin", "dravid",
+        "rahul", "ganguly", "sourav", "laxman", "vvs", "sehwag", "virender", "yuvraj", "singh", "harbhajan",
+        "singh", "zaheer", "khan", "sreesanth", "sreesanth", "pathan", "irfan", "nehra", "ashish", "agarkar",
+        "ajit", "kumble", "anil", "srinath", "javagal", "prasad", "venkatesh", "mongia", "nayan", "karthik",
+        "dinesh", "dhruv", "rathour", "vikram", "jadeja", "ajay", "kambli", "vinod", "manjrekar", "sanjay",
+        "more", "kiran", "srikanth", "kris", "srikkanth", "sidhu", "navjot", "azharuddin", "mohammed",
+        "kapil", "dev", "gavaskar", "sunil", "vengsarkar", "sandip", "shastri", "ravi", "binny", "roger",
+        "madan", "lal", "amarnath", "mohan", "surinder", "bedi", "bishan", "chandra", "sp", "prasanna",
+        "venkat", "srinivasan", "ekanath", "solanke", "subhash", "gupte", "ghulam", "ahmed", "vinoo",
+        "mankad", "polly", "umrigar", "vijay", "manjrekar", "hazarare", "salim", "durani", "salim",
+        "abid", "ali", "mushtaq", "ali", "hanif", "mohammad", "saeed", "anwar", "inzamam", "ul-haq",
+        "wasim", "akram", "waqar", "younis", "shoaib", "akhtar", "saqlain", "mushtaq", "abdul", "qadir",
+        "imran", "khan", "javed", "miandad", "zaheer", "abbas", "majid", "khan", "asif", "iqbal", "sarfraz",
+        "ahmed", "moin", "khan", "rashid", "latif", "misbah", "ul-haq", "younis", "khan", "shahid",
+        "afridi", "umar", "gul", "saeed", "ajmal", "hafeez", "mohammed", "younis", "khan", "shahid",
+        "afridi", "umar", "akmal", "kamran", "akmal", "umar", "malik", "shoaib", "tanvir", "sohail",
+        "tanvir", "abdul", "razzaq", "azhar", "mahmood", "yasir", "arafat", "yasir", "shah", "mohammad",
+        "sammy", "sammy", "gayle", "chris", "sarwan", "ramnaresh", "chanderpaul", "shivnarine", "lara",
+        "brian", "hooper", "carl", "walsh", "courtney", "ambrose", "curtly", "marshall", "malcolm",
+        "holding", "michael", "garner", "joel", "richards", "viv", "lloyd", "clive", "rowe", "lawrence",
+        "khan", "collis", "king", "jimmy", "adams", "jimmy", "gayle", "chris", "bravo", "dwayne",
+        "pollard", "kieron", "narine", "sunil", "samuels", "marlon", "taylor", "jerome", "rampaul",
+        "ravi", "bennett", "samuel", "fidel", "edwards", "jerome", "powell", "ramnaresh", "sarwan",
+        "shivnarine", "chanderpaul", "ramdin", "denesh", "smith", "devon", "sammy", "darren", "fletcher",
+        "andre", "russell", "andre", "shai", "hope", "shai", "nicholas", "pooran", "nicholas", "pooran",
+
+        # Famous Tennis Players
+        "federer", "roger", "nadal", "rafael", "djokovic", "novak", "murray", "andy", "sampras", "pete",
+        "agassi", "andre", "lendl", "ivan", "mcenroe", "john", "borg", "bjorn", "connors", "jimmy",
+        "wilander", "mats", "edberg", "stefan", "becker", "boris", "stich", "michael", "chang", "michael",
+        " Courier", "jim", "roddick", "andy", "hewitt", "lleyton", "safin", "marat", "kuerten", "gustavo",
+        "ferrero", "juan", "carlos", "moya", "carlos", "coria", "guillermo", "gaudio", "gaston", "costa",
+        "albert", "johansson", "thomas", "philippoussis", "mark", "rusedski", "greg", "henman", "tim",
+        "kafelnikov", "yevgeny", "krajicek", "richard", "rafter", "patrick", "ivanisevic", "goran",
+        "stich", "michael", "edberg", "stefan", "becker", "boris", "wilander", "mats", "lendl", "ivan",
+        "mcenroe", "john", "borg", "bjorn", "connors", "jimmy", "ashe", "arthur", "newcombe", "john",
+        "roche", "tony", "emerson", "roy", "laver", "rod", "rosewall", "ken", "hoad", "lew", "sedgman",
+        "frank", "mcgregor", "john", "david", "fraser", "neale", "rose", "allan", "hoad", "lewis",
+        "sedgman", "frank", "mcgregor", "john", "david", "fraser", "neale", "rose", "allan", "hoad",
+        "lewis", "sedgman", "frank", "mcgregor", "john", "david", "fraser", "neale", "rose", "allan",
+        "serena", "williams", "venus", "williams", "graf", "steffi", "navratilova", "martina", "evert",
+        "chris", "seles", "monica", "hingis", "martina", "davenport", "lindsay", "capriati", "jennifer",
+        "sharapova", "maria", "wozniacki", "caroline", "azarenka", "victoria", "kerber", "angelique",
+        "halep", "simona", "pliskova", "karolina", "kvitova", "petra", "kuznetsova", "svetlana", "muguruza",
+        "garbine", "ostapenko", "jelena", "sloane", "stephens", "sloane", "osaka", "naomi", "barty",
+        "ashleigh", "andreescu", "bianca", "kenin", "sofia", "swiatek", "iga", "raducanu", "emma",
+        "gauff", "coco", "sabalenka", "aryna", "rybakina", "elena", "jabeur", "ons", "fritz", "taylor",
+        "tsitsipas", "stefanos", "medvedev", "daniil", "zverev", "alexander", "rublev", "andrey",
+        "berrettini", "matteo", "sinner", "jannik", "alcaraz", "carlos", "ruud", "casper", "norrie",
+        "cameron", "de", "minaur", "alex", "shapovalov", "denis", "auger-aliassime", "felix", "khachanov",
+        "karen", "bublik", "alexander", "hurkacz", "hubert", "fucsovics", "marton", "paul", "tommy",
+
+        # Famous Baseball Players
+        "ruth", "babe", "aaron", "hank", "mays", "willie", "bonds", "barry", "cobb", "ty", "musial",
+        "stan", "williams", "ted", "dimaggio", "joe", "mantle", "mickey", "robinson", "jackie", "clemente",
+        "roberto", "ryan", "nolan", "johnson", "randy", "koufax", "sandy", "seaver", "tom", "maddux",
+        "greg", "glavine", "tom", "smoltz", "john", "pedro", "martinez", "rivera", "mariano", "jeter",
+        "derek", "piazza", "mike", "griffey", "ken", "thomas", "frank", "ortiz", "david", "rodriguez",
+        "alex", "ramirez", "manny", "sosa", "sammy", "mcgwire", "mark", "palmeiro", "rafael", "biggio",
+        "craig", "thomas", "jeff", "bagwell", "jeff", "pujols", "albert", "trout", "mike", "harper",
+        "bryce", "kershaw", "clayton", "verlander", "justin", "schanzer", "max", "cole", "gerrit",
+        "deGrom", "jacob", "betts", "mookie", "judge", "aaron", "stanton", "giancarlo", "altuve", "jose",
+        "bregman", "alex", "correa", "carlos", "springer", "george", "bauer", "trevor", "snell", "blake",
+        "darvish", "yu", "tanaka", "masahiro", "ohtani", "shohei", "machado", "manny", "harper", "bryce",
+
+        # Famous Hockey Players
+        "gretzky", "wayne", "lemieux", "mario", "howe", "gordie", "orr", "bobby", "hull", "brett",
+        "jagr", "jaromir", "messier", "mark", "forsberg", "peter", "lindros", "eric", "sakic", "joe",
+        "yzerman", "steve", "bourque", "ray", "robitaille", "luc", "francis", "ron", "hull", "brett",
+        "oates", "adam", "jagr", "jaromir", "lemieux", "mario", "jagr", "jaromir", "gretzky", "wayne",
+        "howe", "gordie", "orr", "bobby", "hull", "brett", "messier", "mark", "forsberg", "peter",
+        "lindros", "eric", "sakic", "joe", "yzerman", "steve", "bourque", "ray", "robitaille", "luc",
+        "francis", "ron", "crosby", "sidney", "ovechkin", "alex", "malkin", "evgeni", "stamkos", "steven",
+        "tavares", "john", "mcDavid", "connor", "matthews", "auston", "mackinnon", "nathan", "macKinnon",
+        "kane", "patrick", "toews", "jonathan", "keith", "duncan", "seabrook", "brent", "hossa", "marian",
+        "sharp", "patrick", "campbell", "colin", "keith", "duncan", "seabrook", "brent", "hossa", "marian",
+
+        # Famous Golf Players
+        "woods", "tiger", "nicklaus", "jack", "palmer", "arnold", "player", "gary", "hogan", "ben",
+        "snead", "sam", "watson", "tom", "mickelson", "phil", "norman", "greg", "els", "ernie",
+        "singh", "vijay", "faldo", "nick", "scott", "adam", "mcilroy", "rory", "spieth", "jordan",
+        "thomas", "justin", "johnson", "dustin", "rahm", "jon", "koepka", "brooks", "dechambeau",
+        "bryson", "scheffler", "scottie", "cantlay", "patrick", "morikawa", "collin", "zalatoris",
+        "will", "hatton", "tyrell", "fleetwood", "tommy", "rahm", "jon", "thomas", "justin", "johnson",
+        "dustin", "koepka", "brooks", "dechambeau", "bryson", "mcilroy", "rory", "spieth", "jordan",
+        "thomas", "justin", "cantlay", "patrick", "scheffler", "scottie", "morikawa", "collin", "zalatoris",
+        "will", "hatton", "tyrell", "fleetwood", "tommy", "rahm", "jon", "thomas", "justin", "johnson",
+        "dustin", "koepka", "brooks", "dechambeau", "bryson", "mcilroy", "rory", "spieth", "jordan",
+
+        # Famous Boxers
+        "ali", "muhammad", "tyson", "mike", "foreman", "george", "frazier", "joe", "leonard", "sugar",
+        "ray", "durán", "roberto", "hagler", "marvelous", "hearns", "thomas", "hear", "sugar", "ray",
+        "robinson", "sugar", "ray", "armstrong", "henry", "dempsey", "jack", "marciano", "rocky",
+        "louis", "joe", "pacquiao", "manny", "mayweather", "floyd", "cotto", "miguel", "marquez",
+        "juan", "manuel", "barrera", "marco", "pacquiao", "manny", "mayweather", "floyd", "cotto",
+        "miguel", "marquez", "juan", "manuel", "barrera", "marco", "pacquiao", "manny", "mayweather",
+        "floyd", "cotto", "miguel", "marquez", "juan", "manuel", "barrera", "marco", "pacquiao", "manny",
+        "mayweather", "floyd", "cotto", "miguel", "marquez", "juan", "manuel", "barrera", "marco",
+
+        # Famous MMA Fighters
+        "silva", "anderson", "jones", "jon", "st-pierre", "georges", "lesnar", "brock", "cormier",
+        "daniel", "miocic", "stipe", "nogueira", "minotauro", "fedor", "emelianenko", "couture",
+        "randy", "liddell", "chuck", "ortiz", "tito", "griffin", "forrest", "rampage", "quinton",
+        "jackson", "shogun", "rua", "machida", "lyoto", "evans", "rashad", "henderson", "dan",
+        "bisping", "michael", "rockhold", "luke", "weidman", "chris", "silva", "vitor", "belfort",
+        "vitor", "wanderlei", "silva", "rampage", "jackson", "shogun", "rua", "machida", "lyoto",
+        "evans", "rashad", "henderson", "dan", "bisping", "michael", "rockhold", "luke", "weidman",
+        "chris", "silva", "vitor", "belfort", "vitor", "wanderlei", "silva", "rampage", "jackson",
+        "shogun", "rua", "machida", "lyoto", "evans", "rashad", "henderson", "dan", "bisping",
+        "michael", "rockhold", "luke", "weidman", "chris", "silva", "vitor", "belfort", "vitor",
+
+        # Famous F1 Drivers
+        "hamilton", "lewis", "schumacher", "michael", "verstappen", "max", "vettel", "sebastian",
+        "alonso", "fernando", "raikkonen", "kimi", "button", "jenson", "webber", "mark", "ricciardo",
+        "daniel", "bottas", "valtteri", "norris", "lando", "sainz", "carlos", "leclerc", "charles",
+        "gasly", "pierre", "ocon", "esteban", "grosjean", "romain", "kvyat", "daniil", "magnussen",
+        "kevin", "hulkenberg", "nico", "perez", "sergio", "stroll", "lance", "tsunoda", "yuki",
+        "zhou", "guanyu", "albon", "alexander", "latifi", "nicholas", "mazepin", "nikita", "schumacher",
+        "mick", "russell", "george", "hamilton", "lewis", "verstappen", "max", "vettel", "sebastian",
+        "alonso", "fernando", "raikkonen", "kimi", "button", "jenson", "webber", "mark", "ricciardo",
+        "daniel", "bottas", "valtteri", "norris", "lando", "sainz", "carlos", "leclerc", "charles",
+
+        # Famous Athletes (Various Sports)
+        "bolt", "usain", "phelps", "michael", "biles", "simone", "radcliffe", "paula", "farah",
+        "mo", "rudisha", "david", "bekele", "kenenisa", "gebrselassie", "haile", "kipchoge", "eluid",
+        "el", "guerrouj", "hicham", "warholm", "karsten", "duplantis", "mondo", "richardson", "sha'carri",
+        "thompson", "katarina", "johnson", "katarina", "wlodarczyk", "anita", "adams", "valerie",
+        "barshim", "mutaz", "doha", "makhinin", "ivan", "lasitskene", "mariya", "stefanidi", "ekaterini",
+        "rogers", "felix", "allyson", "fraser-pryce", "shelly-ann", "thompson", "elaine", "jackson",
+        "shericka", "ahmed", "faith", "chepng'etich", "kipyegon", "faith", "gidey", "letesenbet", "obiri",
+        "hellen", "muir", "laura", "houlihan", "sifan", "hasan", "sifan", "dibaba", "genzebe",
+        "ayana", "almaz", "cheruiyot", "vivian", "jepchirchir", "peres", "kosgei", "brigid", "kipruto",
+        "conseslus", "keter", "timothy", "cheruiyot", "timothy", "manangoi", "amos", "emanuel", "kinyamal",
+        "michael", "cheruiyot", "timothy", "manangoi", "amos", "emanuel", "kinyamal", "michael", "wanyonyi",
+        "emmanuel", "korir", "ferguson", "reuben", "kipsang", "wilson", "kipchoge", "eluid", "bekele",
+        "kenenisa", "gebrselassie", "haile", "farah", "mo", "radcliffe", "paula", "kipsang", "wilson",
+        "kimetto", "dennis", "kipsiro", "moses", "cherono", "lawrence", "tanui", "abraham", "rotich",
+        "wilson", "kipsang", "wilson", "kimetto", "dennis", "kipsiro", "moses", "cherono", "lawrence",
+        "tanui", "abraham", "rotich", "wilson", "kipsang", "wilson", "kimetto", "dennis", "kipsiro",
+        "moses", "cherono", "lawrence", "tanui", "abraham", "rotich", "wilson", "kipsang", "wilson",
+
+        # Sports Teams
+        "barcelona", "real", "madrid", "manchester", "united", "city", "liverpool", "chelsea", "arsenal",
+        "tottenham", "juventus", "inter", "milan", "ac", "milan", "bayern", "munich", "dortmund", "psg",
+        "paris", "saint-germain", "ajax", "benfica", "porto", "sporting", "galatasaray", "fenerbahce",
+        "besiktas", "olympiakos", "panathinaikos", "paok", "celtic", "rangers", "shakhtar", "dynamo",
+        "kyiv", "red", "star", "partizan", "steaua", "crvena", "zvezda", "salzburg", "basel", "zurich",
+        "young", "boys", "brugge", "club", "brugge", "leverkusen", "wolfsburg", "frankfurt", "eintracht",
+        "leipzig", "rb", "monchengladbach", "borussia", "hamburg", "werder", "bremen", "stuttgart", "hertha",
+        "berlin", "hannover", "koln", "fc", "mainz", "freiburg", "hoffenheim", "augsburg", "paderborn",
+        "union", "berlin", "schalke", "dortmund", "borussia", "bayer", "leverkusen", "bayern", "munich",
+        "rb", "leipzig", "wolfsburg", "frankfurt", "eintracht", "monchengladbach", "borussia", "hamburg",
+        "werder", "bremen", "stuttgart", "hertha", "berlin", "hannover", "koln", "fc", "mainz", "freiburg",
+        "hoffenheim", "augsburg", "paderborn", "union", "berlin", "schalke", "dortmund", "borussia",
+        "lakers", "celtics", "warriors", "bulls", "heat", "spurs", "mavericks", "rockets", "clippers",
+        "knicks", "nets", "76ers", "raptors", "bucks", "pistons", "pacers", "cavaliers", "timberwolves",
+        "grizzlies", "pelicans", "thunder", "blazers", "kings", "suns", "hawks", "hornets", "magic",
+        "wizards", "yankees", "red", "sox", "dodgers", "giants", "cubs", "cardinals", "braves", "astros",
+        "mets", "phillies", "angels", "mariners", "rangers", "orioles", "blue", "jays", "rays", "athletics",
+        "tigers", "white", "sox", "royals", "twins", "indians", "guardians", "pirates", "reds", "diamondbacks",
+        "rockies", "brewers", "nationals", "padres", "marlins", "penguins", "blackhawks", "rangers", "bruins",
+        "canadiens", "maple", "leafs", "capitals", "lightning", "golden", "knights", "avalanche", "stars",
+        "oilers", "flames", "canucks", "jets", "senators", "sabres", "panthers", "hurricanes", "wild",
+        "predators", "devils", "flyers", "islanders", "ducks", "kings", "sharks", "coyotes",
+
+        # Sports Equipment and Gear
+        "ball", "balls", "bat", "bats", "racket", "rackets", "club", "clubs", "stick", "sticks", "puck",
+        "gloves", "helmet", "helmets", "pad", "pads", "shin", "guards", "cleats", "spikes", "jersey",
+        "kit", "uniform", "shorts", "socks", "shoes", "boots", "sneakers", "net", "nets", "hoop", "hoops",
+        "rim", "rims", "backboard", "goalpost", "crossbar", "post", "posts", "flag", "flags", "whistle",
+        "referee", "umpire", "linesman", "judge", "scorer", "timer", "clock", "scoreboard", "video",
+        "replay", "challenge", "review", "var", "technology", "system", "camera", "cameras", "drone",
+        "drones", "tracker", "tracking", "gps", "sensor", "sensors", "wearable", "fitness", "watch",
+        "band", "strap", "heart", "rate", "monitor", "smartwatch", "tracker", "activity", "step",
+        "counter", "calorie", "burn", "sleep", "tracker", "hydration", "monitor", "nutrition", "diet",
+        "supplement", "protein", "carb", "carbohydrate", "fat", "vitamin", "mineral", "water", "bottle",
+        "bottles", "hydration", "pack", "belt", "fanny", "pack", "backpack", "bag", "bags", "duffel",
+        "locker", "room", "shower", "towel", "soap", "shampoo", "conditioner", "deodorant", "antiperspirant",
+        "tape", "athletic", "wrap", "brace", "support", "compression", "socks", "sleeves", "shirt",
+        "base", "layer", "mid", "layer", "outer", "layer", "jacket", "windbreaker", "rain", "gear",
+        "cold", "weather", "hot", "weather", "sun", "protection", "sunglasses", "hat", "cap", "visor",
+
+        # Sports Venues and Locations
+        "stadium", "stadiums", "arena", "arenas", "field", "fields", "court", "courts", "pitch", "pitches",
+        "track", "tracks", "pool", "pools", "gym", "gymnasium", "fitness", "center", "centre", "club",
+        "complex", "facility", "facilities", "venue", "venues", "location", "locations", "city", "cities",
+        "country", "countries", "nation", "nations", "region", "regions", "state", "states", "province",
+        "provinces", "territory", "territories", "continent", "continents", "world", "global", "international",
+        "domestic", "local", "regional", "national", "amateur", "professional", "semi", "pro", "elite",
+        "youth", "junior", "senior", "veteran", "rookie", "debut", "retirement", "legend", "hall", "fame",
+        "museum", "exhibition", "showcase", "demonstration", "clinic", "camp", "training", "academy",
+        "school", "university", "college", "high", "school", "elementary", "primary", "secondary",
     }
     
     import re
@@ -230,7 +457,19 @@ class SportlyBotHandler(SimpleHTTPRequestHandler):
         if not gemini_enabled():
             # Always do web search when Gemini is disabled
             print(f"Performing web search for query: {query}")
-            web_results = search_web(query)
+            
+            # Enhance query with sports context for better results
+            enhanced_query = query
+            if "messi" in query.lower() or "ronaldo" in query.lower() or "neymar" in query.lower():
+                enhanced_query = f"{query} football soccer player"
+            elif "jordan" in query.lower() or "lebron" in query.lower() or "kobe" in query.lower():
+                enhanced_query = f"{query} basketball nba player"
+            elif "tendulkar" in query.lower() or "kohli" in query.lower():
+                enhanced_query = f"{query} cricket player"
+            elif "federer" in query.lower() or "nadal" in query.lower() or "djokovic" in query.lower():
+                enhanced_query = f"{query} tennis player"
+            
+            web_results = search_web(enhanced_query)
             print(f"Web results: {web_results}")
             local_ans = generate_local_sports_answer(query, web_results)
             result = {

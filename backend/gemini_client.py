@@ -41,18 +41,28 @@ def generate_local_sports_answer(query: str, web_results: List[Dict[str, str]]) 
             "is_sports_related": True
         }
     
+    # Simply use the top results without complex filtering for now
     paragraphs = []
     sources = []
-    for res in web_results[:3]:
-        snippet = res.get("snippet", "").strip()
+    for res in web_results[:5]:
+        snippet = res.get("body", "").strip()
         title = res.get("title", "").strip()
-        url = res.get("url", "").strip()
+        url = res.get("href", "").strip()
         if snippet:
             paragraphs.append(f"{snippet} (Source: {title})")
         if url:
             sources.append(url)
             
     direct_answer = " ".join(paragraphs)
+    
+    if not direct_answer:
+        return {
+            "direct_answer": "I am Sportly, your sports assistant. I couldn't find any relevant sports information for that query. Please try with more specific sports-related terms.",
+            "explanation": "No relevant sports information was found in the search results.",
+            "action_steps": [],
+            "sources": [],
+            "is_sports_related": True
+        }
     
     return {
         "direct_answer": direct_answer,

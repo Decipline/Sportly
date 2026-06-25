@@ -134,6 +134,282 @@
         "action_steps": [],
         "sources": []
       }
+    },
+    {
+      "id": "177da644-2aed-48a5-b415-b6e503036fbf",
+      "created_at": "2026-06-23T04:28:14.690359+00:00",
+      "user_query": "hello",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any recent information on that sports topic. Could you please specify or try another query?",
+        "explanation": "No web search results were found for the query.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "dd05ad83-e972-4788-ba9a-42a15a5d684b",
+      "created_at": "2026-06-23T04:48:30.517234+00:00",
+      "user_query": "hello",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any recent information on that sports topic. Could you please specify or try another query?",
+        "explanation": "No web search results were found for the query.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "cfa571f2-61eb-4bfe-a71d-37b87243552b",
+      "created_at": "2026-06-24T04:23:05.750168+00:00",
+      "user_query": "hello",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any recent information on that sports topic. Could you please specify or try another query?",
+        "explanation": "No web search results were found for the query.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "87d67983-9753-44ab-bced-5664bd55c5d6",
+      "created_at": "2026-06-24T04:23:13.917811+00:00",
+      "user_query": "who is messi",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any recent information on that sports topic. Could you please specify or try another query?",
+        "explanation": "No web search results were found for the query.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "999926d5-04b8-471a-ab5a-196e355cd95f",
+      "created_at": "2026-06-24T04:23:58.434304+00:00",
+      "user_query": "who is messi",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any recent information on that sports topic. Could you please specify or try another query?",
+        "explanation": "No web search results were found for the query.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "1304327d-0d13-426d-a258-635cc0cef07e",
+      "created_at": "2026-06-24T04:24:26.602458+00:00",
+      "user_query": "who is messi",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any recent information on that sports topic. Could you please specify or try another query?",
+        "explanation": "No web search results were found for the query.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "8ce2a8b1-8504-4425-a4d1-079ee6f23b82",
+      "created_at": "2026-06-24T04:25:07.172407+00:00",
+      "user_query": "who is messi",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any recent information on that sports topic. Could you please specify or try another query?",
+        "explanation": "No web search results were found for the query.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "7b9b798f-810d-4642-a2f1-17453fe7fb3c",
+      "created_at": "2026-06-24T04:31:27.620372+00:00",
+      "user_query": "who is messi",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "Who's Missing is a compilation of rare and previously unreleased songs by the English rock band the Who. Its second part, Two's Missing, was released in April 1987.The CD was reissued in Japan on 24 December 2011 with additional bonus tracks drawn from the Japanese only bonus disc for Then and Now, as a 2-CD set together with Two's Missing. The album was remastered by Jon Astley from the original analog master tapes. (Source: Who's Missing (album)) An Argentine international, Messi is the national team's all-time leading goalscorer and most-capped player. Several years after his senior debut in 2005, he ... (Source: Lionel Messi - Wikipedia) Lionel Messi is Argentina's youngest and oldest player to score in a FIFA World Cup. He was 18 when he scored his first World Cup goal, against Serbia and ... (Source: 2026 FIFA World Cup Stars: How Lionel Messi Conquered the World)",
+        "explanation": "This information was retrieved from live web search results for 'who is messi'.",
+        "action_steps": [
+          "Check the listed sources for full match highlights or statistics."
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Who's_Missing_(album)",
+          "https://en.wikipedia.org/wiki/Lionel_Messi",
+          "https://www.britannica.com/biography/Lionel-Messi"
+        ],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "e1124712-7970-4dc8-940f-87df78be35b9",
+      "created_at": "2026-06-24T04:32:47.648055+00:00",
+      "user_query": "who is messi?",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "\"Who I Am\" is a song by American country music artist Jessica Andrews that was released on October 30, 2000, as the lead single to her second studio album of the same name (2001). It was written by Brett James and Troy Verges. (Source: Who I Am (Jessica Andrews song)) Lionel Andr\u00e9s \" Leo \" Messi[note 1] (born 24 June 1987) is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team. (Source: Lionel Messi - Wikipedia) Lionel Messi is an Argentine professional footballer who plays as a forward for and captains both the Major League Soccer club Inter Miami and the Argentina national team. His individual achievements include eight Ballon d'Or awards, the most for any footballer. (Source: Career of Lionel Messi - Wikipedia)",
+        "explanation": "This information was retrieved from live web search results for 'who is messi?'.",
+        "action_steps": [
+          "Check the listed sources for full match highlights or statistics."
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Who_I_Am_(Jessica_Andrews_song)",
+          "https://en.wikipedia.org/wiki/Lionel_Messi",
+          "https://en.wikipedia.org/wiki/Career_of_Lionel_Messi"
+        ],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "03b6875e-b91c-43b4-9bfb-be40b6103617",
+      "created_at": "2026-06-24T04:33:04.436115+00:00",
+      "user_query": "messi worldcup",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "Messi's World Cup: The Rise of a Legend is a biographical documentary series produced in a collaboration between Apple TV+, SMUGGLER Entertainment and Pegsa Group. The series follows Lionel Messi's triumphant career, his overall impact on football and shows his journey of highs and lows with the Argentina national football team across five World Cups, culminating with his fairytale ending of winning the 2022 FIFA World Cup. (Source: Messi's World Cup: The Rise of a Legend) 1 day ago \u00b7 Lionel Messi became the highest goalscorer in World Cup history after scoring his 17th and 18th tournament goals in Argentina's 2-0 win over ... (Source: Messi becomes the World Cup's all-time top goalscorer - Al Jazeera) 1 day ago \u00b7 'THE BEST EVER!' Lionel Messi becomes the all-time World Cup top scorer in 2-0 win | ESPN FC. 62K views \u00b7 21 hours ago ...more ... (Source: 'THE BEST EVER!' Lionel Messi becomes the all-time World Cup top ...)",
+        "explanation": "This information was retrieved from live web search results for 'messi worldcup'.",
+        "action_steps": [
+          "Check the listed sources for full match highlights or statistics."
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Messi's_World_Cup:_The_Rise_of_a_Legend",
+          "https://www.aljazeera.com/video/newsfeed/2026/6/23/messi-becomes-the-world-cups-all-time-top-goalscorer",
+          "https://www.youtube.com/watch?v=AZlWDxEc2jI"
+        ],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "a584f9a6-f9ce-40da-ad05-c162cb0c0a5e",
+      "created_at": "2026-06-24T04:35:31.555207+00:00",
+      "user_query": "who is messi?",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "\"Who I Am\" is a song by American country music artist Jessica Andrews that was released on October 30, 2000, as the lead single to her second studio album of the same name (2001). It was written by Brett James and Troy Verges. (Source: Who I Am (Jessica Andrews song)) Lionel Andr\u00e9s \" Leo \" Messi[note 1] (born 24 June 1987) is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team. (Source: Lionel Messi - Wikipedia) Lionel Messi is an Argentine professional footballer who plays as a forward for and captains both the Major League Soccer club Inter Miami and the Argentina national team. His individual achievements include eight Ballon d'Or awards, the most for any footballer. (Source: Career of Lionel Messi - Wikipedia)",
+        "explanation": "This information was retrieved from live web search results for 'who is messi?'.",
+        "action_steps": [
+          "Check the listed sources for full match highlights or statistics."
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Who_I_Am_(Jessica_Andrews_song)",
+          "https://en.wikipedia.org/wiki/Lionel_Messi",
+          "https://en.wikipedia.org/wiki/Career_of_Lionel_Messi"
+        ],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "9f9b6fc4-f600-4991-b19f-beb005514c6b",
+      "created_at": "2026-06-24T04:36:05.589810+00:00",
+      "user_query": "who is messi",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any relevant sports information for that query. Please try with more specific sports-related terms.",
+        "explanation": "No relevant sports information was found in the search results.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "fcf5dfc1-6864-40c9-bfd8-81bcc9eaf7fa",
+      "created_at": "2026-06-24T04:36:25.498696+00:00",
+      "user_query": "fifa wc?",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any relevant sports information for that query. Please try with more specific sports-related terms.",
+        "explanation": "No relevant sports information was found in the search results.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "91ff04e8-8a4f-414c-98f9-9ad88dab5941",
+      "created_at": "2026-06-24T04:36:49.850437+00:00",
+      "user_query": "fifa worldcup",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any relevant sports information for that query. Please try with more specific sports-related terms.",
+        "explanation": "No relevant sports information was found in the search results.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "3f2993dc-9334-42bf-8039-a0f6bb87c89b",
+      "created_at": "2026-06-24T04:37:44.972040+00:00",
+      "user_query": "nepal",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any relevant sports information for that query. Please try with more specific sports-related terms.",
+        "explanation": "No relevant sports information was found in the search results.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "4d2883d6-8350-4028-9cc6-156e2c2950b7",
+      "created_at": "2026-06-24T04:37:51.501227+00:00",
+      "user_query": "who is messi",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any relevant sports information for that query. Please try with more specific sports-related terms.",
+        "explanation": "No relevant sports information was found in the search results.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "596dd6b7-d303-46a8-8cb4-863efe5054bb",
+      "created_at": "2026-06-24T04:38:37.907290+00:00",
+      "user_query": "who is messi",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any relevant sports information for that query. Please try with more specific sports-related terms.",
+        "explanation": "No relevant sports information was found in the search results.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
+    },
+    {
+      "id": "515188a3-70ef-45d2-8319-b1f5cb5259f8",
+      "created_at": "2026-06-24T04:39:37.153290+00:00",
+      "user_query": "who is messi",
+      "intent": "sports",
+      "agent": "Sportly",
+      "answer": {
+        "direct_answer": "I am Sportly, your sports assistant. I couldn't find any relevant sports information for that query. Please try with more specific sports-related terms.",
+        "explanation": "No relevant sports information was found in the search results.",
+        "action_steps": [],
+        "sources": [],
+        "is_sports_related": true
+      }
     }
   ],
   "users": [
@@ -171,6 +447,13 @@
       "username": "www",
       "email": "hemantkhadka8053@gmail.com",
       "password_hash": "$2b$12$XIefc53RMLdl5Es9/XX4weX9XN0iHKfZlEeiAPkyGI92KVDD/m0g."
+    },
+    {
+      "id": "3b3741bb-467e-40e1-ac70-c566cd48f96c",
+      "created_at": "2026-06-23T04:16:38.215064+00:00",
+      "username": "heymu",
+      "email": "hemantkhadka8053@gmail.com",
+      "password_hash": "$2b$12$4pFQeRdim/J0bv8.7IwWwuYLO/CQe1aCv8/T4lKCxppuYK/E1J2JC"
     }
   ]
 }
